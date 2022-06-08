@@ -78,7 +78,6 @@ a:hover {
     margin-bottom: 50px;
     -webkit-user-select: none;
     animation: rainbow .5s infinite; 
-    text-decoration: underline;
 }
 
 /* I stole this bit of code :O */

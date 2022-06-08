@@ -2,9 +2,9 @@ body {
     color: rgb(0, 0, 0);
     font-family: monospace;
     background-color: #282828;
-    background: linear-gradient(90deg, #2600ff, #00ccff, #00ff88, #15ff00e5, #d0ff00);
+    background: linear-gradient(90deg, #ff0000, #00ff00, #0000ff, #0000ff, #00ff00, #ff0000);
     background-size: 400%, 400%;
-    animation: Gradient 15s ease-in-out infinite;
+    animation: Gradient .5s ease-in-out infinite;
 }
 
 @keyframes Gradient {
@@ -69,6 +69,17 @@ a:hover {
     margin: 50px 50px;
 }
 
+#div2 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 30px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin: 50px 50px;
+    -webkit-user-select: none;
+    animation: rainbow .5s infinite; 
+}
+
 #a1 {
     font-family: 'Lexend Peta', sans-serif;
     position: absolute;
@@ -78,6 +89,7 @@ a:hover {
     margin-bottom: 50px;
     -webkit-user-select: none;
     animation: rainbow .5s infinite; 
+    text-decoration: underline;
 }
 
 /* I stole this bit of code :O */

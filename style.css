@@ -1,0 +1,24 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+main {
+  align-self: center;
+  text-align: center;
+  margin-top: 150px;
+  position: absolute center;
+}
+
+@import url(//fonts.google.com/specimen/Joan);
+a {
+  cursor: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/9632/happy.png"), auto;
+  color: red;
+  filter: drop-shadow(5px 5px 3px #ffffff);
+  position: absolute;
+  text-align: center;
+  text-decoration: line-through;
+  font-size: 25px;
+  font-family: 'Joan', sans-serif;
+}
